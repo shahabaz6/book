@@ -1,165 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="style.css">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Search for books and get results from Anna's Archive and Z-Library in one click.">
-  <meta name="keywords" content="Book Finder, Anna's Archive, Z-Library, Search Books">
-  <meta name="author" content="Book Finder Team">
-  <title>Global Book Finder | Anna's Archive & Z-Library</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fefae0;
+      color: #333;
+    }
+
+    header {
+      background: #f4a261;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 4px solid white;
+    }
+
+    h1 {
+      margin: 1rem 0 0.3rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e9c46a;
+      padding: 0.3rem 0.7rem;
+      border-radius: 5px;
+      margin: 0.3rem;
+    }
+
+    footer {
+      background: #264653;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    a {
+      color: #2a9d8f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
+
   <header>
-    <div class="container">
-      <h1>🌍 Global Book Finder</h1>
-      <p>Your gateway to finding books across platforms like Anna's Archive and Z-Library.</p>
-    </div>
+    <img src="shahbaz.png" alt="Your Photo" />
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Creator</p>
   </header>
-  <main>
-    <div class="container">
-      <section class="search-section">
-        <div class="search-box">
-          <input type="text" id="searchBar" placeholder="Search for a book title (e.g., 'Verity')" aria-label="Search for books" />
-          <button id="searchButton" aria-label="Search">🔍 Search</button>
-        </div>
-        <p class="note">Please type <strong>correct name</strong> of your book and Press <strong>Enter</strong> or click <strong>Search</strong> to get results in new tabs.</p>
-      </section>
-    </div>
-  </main>
+
+  <section class="card">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate web developer who loves creating beautiful and functional websites. This is my personal space on the internet. Feel free to explore!</p>
+  </section>
+
+  <section class="card skills">
+    <h2>Skills</h2>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>React</span>
+    <span>Node.js</span>
+  </section>
+
+  <section class="card">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>My Portfolio</strong> – A showcase of my best work. <a href="#">View</a></li>
+      <li><strong>Blog Platform</strong> – Simple blog using HTML/CSS/JS. <a href="#">View</a></li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:shahbaz1251k@gmail.com">shahbaz1251k@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
+  </section>
+
   <footer>
-    <div class="container">
-      <p>&copy; 2024 Global Book Finder. Powered by <a href="https://annas-archive.org/" target="_blank">Anna's Archive</a> and <a href="https://z-lib.gs/" target="_blank">Z-Library</a>.</p>
-      <p>Designed for readers worldwide 🌐.</p>
-    </div>
+    <p>© 2025 Your Name. All rights reserved.</p>
   </footer>
-  <script src="script.js"></script>
+<link rel="stylesheet" href="">
 </body>
-
-</html><!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Search for books and get results from Anna's Archive and Z-Library in one click.">
-  <meta name="keywords" content="Book Finder, Anna's Archive, Z-Library, Search Books">
-  <meta name="author" content="Book Finder Team">
-  <title>Global Book Finder | Anna's Archive & Z-Library</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <h1>🌍 Global Book Finder</h1>
-      <p>Your gateway to finding books across platforms like Anna's Archive and Z-Library.</p>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <section class="search-section">
-        <div class="search-box">
-          <input type="text" id="searchBar" placeholder="Search for a book title (e.g., 'Verity')" aria-label="Search for books" />
-          <button id="searchButton" aria-label="Search">🔍 Search</button>
-        </div>
-        <p class="note">Please type <strong>correct name</strong> of your book and Press <strong>Enter</strong> or click <strong>Search</strong> to get results in new tabs.</p>
-      </section>
-    </div>
-  </main>
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Global Book Finder. Powered by <a href="https://annas-archive.org/" target="_blank">Anna's Archive</a> and <a href="https://z-lib.gs/" target="_blank">Z-Library</a>.</p>
-      <p>Designed for readers worldwide 🌐.</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-
-</html><!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Search for books and get results from Anna's Archive and Z-Library in one click.">
-  <meta name="keywords" content="Book Finder, Anna's Archive, Z-Library, Search Books">
-  <meta name="author" content="Book Finder Team">
-  <title>Global Book Finder | Anna's Archive & Z-Library</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <h1>🌍 Global Book Finder</h1>
-      <p>Your gateway to finding books across platforms like Anna's Archive and Z-Library.</p>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <section class="search-section">
-        <div class="search-box">
-          <input type="text" id="searchBar" placeholder="Search for a book title (e.g., 'Verity')" aria-label="Search for books" />
-          <button id="searchButton" aria-label="Search">🔍 Search</button>
-        </div>
-        <p class="note">Please type <strong>correct name</strong> of your book and Press <strong>Enter</strong> or click <strong>Search</strong> to get results in new tabs.</p>
-      </section>
-    </div>
-  </main>
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Global Book Finder. Powered by <a href="https://annas-archive.org/" target="_blank">Anna's Archive</a> and <a href="https://z-lib.gs/" target="_blank">Z-Library</a>.</p>
-      <p>Designed for readers worldwide 🌐.</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-
-</html><!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Search for books and get results from Anna's Archive and Z-Library in one click.">
-  <meta name="keywords" content="Book Finder, Anna's Archive, Z-Library, Search Books">
-  <meta name="author" content="Book Finder Team">
-  <title>Global Book Finder | Anna's Archive & Z-Library</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <h1>🌍 Global Book Finder</h1>
-      <p>Your gateway to finding books across platforms like Anna's Archive and Z-Library.</p>
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <section class="search-section">
-        <div class="search-box">
-          <input type="text" id="searchBar" placeholder="Search for a book title (e.g., 'Verity')" aria-label="Search for books" />
-          <button id="searchButton" aria-label="Search">🔍 Search</button>
-        </div>
-        <p class="note">Please type <strong>correct name</strong> of your book and Press <strong>Enter</strong> or click <strong>Search</strong> to get results in new tabs.</p>
-      </section>
-    </div>
-  </main>
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 Global Book Finder. Powered by <a href="https://annas-archive.org/" target="_blank">Anna's Archive</a> and <a href="https://z-lib.gs/" target="_blank">Z-Library</a>.</p>
-      <p>Designed for readers worldwide 🌐.</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-
 </html>
